@@ -22,22 +22,22 @@ DOWN_genes <- bitr_kegg(DOWN, fromType = "kegg", toType = "ncbi-geneid", organis
 
 # PLOTTING
 
-hsa04110 <- pathview(gene.data  = DOWN_genes,
+pathview(gene.data  = DOWN_genes,
                      ppvuway.id = "pvu03010",
                      species    = "pvu")
 
-hsa04110 <- pathview(gene.data  = DOWN_genes,
+pathview(gene.data  = DOWN_genes,
                      ppvuway.id = "pvu00195",
                      species    = "pvu")
 
-hsa04110 <- pathview(gene.data  = DOWN_genes,
+pathview(gene.data  = DOWN_genes,
                      ppvuway.id = "pvu00860",
                      species    = "pvu")
                      
-hsa04110 <- pathview(gene.data  = DOWN_genes,
+pathview(gene.data  = DOWN_genes,
                      ppvuway.id = "pvu00061",
                      species    = "pvu")
 
-hsa04110 <- pathview(gene.data  = UP_genes,
+pathview(gene.data  = UP_genes,
                      ppvuway.id = "pvu00592",
                      species    = "pvu")
