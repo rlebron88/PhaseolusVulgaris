@@ -23,21 +23,21 @@ DOWN_genes <- bitr_kegg(DOWN, fromType = "kegg", toType = "ncbi-geneid", organis
 # PLOTTING
 
 pathview(gene.data  = DOWN_genes,
-                     ppvuway.id = "pvu03010",
+                     pathway.id = "pvu03010",
                      species    = "pvu")
 
 pathview(gene.data  = DOWN_genes,
-                     ppvuway.id = "pvu00195",
+                     pathway.id = "pvu00195",
                      species    = "pvu")
 
 pathview(gene.data  = DOWN_genes,
-                     ppvuway.id = "pvu00860",
+                     pathway.id = "pvu00860",
                      species    = "pvu")
                      
 pathview(gene.data  = DOWN_genes,
-                     ppvuway.id = "pvu00061",
+                     pathway.id = "pvu00061",
                      species    = "pvu")
 
 pathview(gene.data  = UP_genes,
-                     ppvuway.id = "pvu00592",
+                     pathway.id = "pvu00592",
                      species    = "pvu")
